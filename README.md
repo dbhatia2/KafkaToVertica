@@ -8,9 +8,9 @@ Messaging Layer: Kafka
 Pre-Requestes:
 1. This programs processes the events produced by Maxwell daemon.
 http://maxwells-daemon.io/
-2. Kafka and Zookeper is already setup and Maxwell daemon is sending the CDC events to kakfa. 
-3. Vertica is setup. 
-4. You have CDC table created in vertica mataching source table. 
+2. Kafka and Zookeper is already setup and Maxwell daemon is sending the CDC events to kafka. 
+3. Target - Vertica is setup. 
+4. Target -You have CDC table created in  mataching source table. 
 
 
 This program currently caonverts json payload produced by Maxwell and filters the inserts events and insert it to vertica table.
